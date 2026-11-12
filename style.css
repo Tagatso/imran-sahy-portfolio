@@ -1,0 +1,285 @@
+* {
+  color: #a8b2c1;
+  font-weight: 500;
+}
+
+body {
+  background-color: #040816 !important;
+}
+
+h2 {
+  color: white;
+}
+
+/* Navbar */
+.navbar {
+  border-bottom: 1px solid #64748b;
+  
+}
+
+.navbar-brand {
+  font-size: 2rem !important;
+  font-weight: bold;
+}
+
+.navbar-brand > span {
+  font-size: 2rem !important;
+  font-weight: bold;
+}
+
+.last-letter {
+  background-image: linear-gradient(#4f8cff, #38d9ff, #9b6dff);
+  color: transparent;
+  background-clip: text;
+}
+
+/* Introduction */
+.intro {
+  padding-bottom: 60px;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.intro-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.intro .container {
+  position: relative;
+  z-index: 1;
+}
+
+.intro-text {
+  margin-top: 100px;
+}
+
+div > h1 {
+  background-image: linear-gradient(#4f8cff, #38d9ff, #9b6dff);
+  color: transparent;
+  background-clip: text;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 5rem;
+}
+
+.text-center > img {
+  width: 350px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+/* About Me */
+
+.secondary-background {
+  background-color: #081225;
+}
+
+.game-card {
+  border: 2px solid #1e2e49;
+  border-radius: 12px;
+  background-color: #111f38;
+}
+
+.game-card > img {
+  border-bottom: 3px solid #1e2e49;
+  max-height: 240x;
+  max-width: 240px;
+}
+
+div > h3 {
+  color: #f1f5f9;
+}
+
+.gradient-text {
+  background-image: linear-gradient(#4f8cff, #38d9ff, #9b6dff);
+  color: transparent;
+  background-clip: text;
+  font-weight: bold;
+}
+
+.section-description {
+  margin-bottom: 40px;
+}
+
+/* Projects */
+
+.project-card {
+  padding: 20px;
+  border: 2px solid #1c2b45;
+  border-radius: 12px;
+  background-color: #111f38;
+}
+
+.project-card > img {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+}
+
+.project-label-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.badge {
+  background-color: #082f49;
+  border: #22d3ee solid 1px;
+  color: #22d3ee;
+  border-radius: 10px;
+  padding: 10px;
+  width: fit-content;
+  font-size: 13px;
+}
+
+/* Experience */
+
+/* Technical Skills */
+
+.technical-skill-card {
+  background-color: #040816;
+  border: 2px solid #1c2b45;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.technical-skill-card-header {
+  display: flex;
+  margin-top: 22px;
+}
+
+.technical-skill-card-badges {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.skill-img {
+  height: 60%;
+  margin-top: 3px;
+  margin-right: 8px;
+}
+
+h5 {
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* Experience */
+.accordion-button {
+  background-color: #081225;
+  color: white;
+  display: inline-block;
+}
+
+.duration {
+  margin-left: 0.5%;
+  border: 1px solid #155e75;
+  border-radius: 50px;
+  padding: 5px 12px;
+  color: #22d3ee;
+  background-color: #082f49;
+  font-size: small;
+  margin-top: 2px;
+  width: fit-content;
+  display: inline-block;
+}
+
+.accordion-item {
+  background-color: #081225;
+  border: 2px solid #1c2b45;
+  transition:
+    transform 0.2s,
+    border-color 0.2s;
+}
+
+.accordion-item:hover {
+  border: 2px solid #22d3ee;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #0d1f40;
+  color: white;
+  box-shadow: none;
+}
+
+.accordion-button::after {
+  position: absolute;
+  margin-left: 93%;
+  right: 40px;
+  bottom: 40px;
+  display: inline-block;
+  filter: brightness(0) saturate(100%) invert(79%) sepia(48%) saturate(1000%) hue-rotate(145deg) brightness(100%)
+    contrast(95%);
+}
+
+.two-dates {
+  position: relative;
+  margin-top: 9px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.accordion-body {
+  border-top: 1px solid #155e75;
+}
+
+li {
+  color: white;
+  margin-top: 10px;
+}
+
+.accordion-text-description {
+  font-weight: 400;
+}
+
+/* Contact */
+.contact-h2 {
+  text-align: center;
+}
+
+.contact-section-description {
+  text-align: center;
+}
+
+.contact-card {
+  text-align: center;
+  background-color: #040816;
+  border: 1px solid #1c2b45;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.contact-icon {
+  margin-bottom: 10px;
+}
+
+.email-text{
+  font-weight: 400;
+  margin-bottom: 9px;
+}
+
+.contact-link{
+  text-decoration: none;
+  color: #22D3EE;
+  font-weight: 400;
+}
+
+footer {
+  padding-bottom: 20px;
+}
+
+.footer-text {
+  margin-bottom: 0px;
+  font-weight: 200;
+  text-align: center;
+}
